@@ -8,7 +8,7 @@ public class Howmuch{
 
 				int a = scan.nextInt();
 
-				System.out.println(a + " $");
+				System.out.println(a + "$");
 
 				System.out.println("How many do you want?");
 
@@ -22,23 +22,26 @@ public class Howmuch{
 
 				System.out.println("Discount Plz");
 
-				System.out.println("%Sun Jae");
+				System.out.println("What % Discount do you wnat");
 				
 				int d = scan.nextInt();
 
-				int price = b / d;
+				// int price = 0;
+
+				// price = c/100*(100-d);
 				
-				String result = "";
+				String result = "go away";
 
-				result = "It takes " + price + "$";
+				
 
 
-				if(d < 10);{
-					System.out.println("Go away");
+				if(d <= (10)){
+					result = "It takes " +c/100*(100-d) + " $";
 				}
-				
+				else{
+}
 					System.out.println(result);
-				}
+}
 }
 
 				// if(!result.equals("ERROR")){
